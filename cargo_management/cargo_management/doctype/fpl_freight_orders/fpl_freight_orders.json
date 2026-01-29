@@ -159,8 +159,7 @@
    "default": "0",
    "fieldname": "mm_completed_",
    "fieldtype": "Check",
-   "label": "MM Completed ?",
-   "read_only": 1
+   "label": "MM Completed ?"
   },
   {
    "default": "0",
@@ -227,7 +226,7 @@
    "link_fieldname": "freight_order_id"
   }
  ],
- "modified": "2025-04-29 13:47:22.402559",
+ "modified": "2026-01-29 13:20:30.628766",
  "modified_by": "Administrator",
  "module": "Cargo Management",
  "name": "FPL Freight Orders",

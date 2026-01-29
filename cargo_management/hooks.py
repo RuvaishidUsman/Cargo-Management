@@ -175,6 +175,15 @@ doc_events = {
 # 	],
 # }
 
+scheduler_events = {
+    "cron": {
+        "*/6 * * * *": [
+            "cargo_management.tasks.crypto.pull_and_store",
+        ],
+    },
+}
+
+
 # Testing
 # -------
 
